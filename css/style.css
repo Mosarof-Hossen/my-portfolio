@@ -38,10 +38,21 @@
 
 
 /* navigation-menu */
+/* background */
+.header-section{
+    background-image: url(/image/developer.png),url(/image/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: center left, bottom right;
+}
+
+
+/* banner-image-end */
+
+
 .menu{
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 15px;
     
     
@@ -50,7 +61,7 @@
 .logo{
     text-transform: capitalize;
     font-size: 45px;
-     font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
 
 }
 .text-color{
@@ -87,4 +98,62 @@
     color: #FFFFFF;
     border: 0px solid #fd6e0a;
     border-radius: 5px;
+    transition: 1s;
+    font-family: "Open Sans",sans-serif;
+}
+.btn-link:hover{
+    background-color: green;
+    color: white;
+}
+
+
+/* banner-section */
+
+ 
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* banner-title */
+.banner-title{
+    font-size: 45px;
+    color: #474747;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    line-height: 65px;
+}
+
+.banner-title-2{
+    font-size: 85px;
+    color: #181818;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    line-height: 95px;
+}
+.banner-content{
+    font-size: 18px;
+   
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.btn-contact{
+    font-family: "Open Sans",sans-serif;
+    background-color: #fd6f0a00;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 15px 35px;
+    color: #fd6e0a;
+    border: 2px solid #fd6e0a;
+    border-radius: 5px;
+    margin-left: 30px;
+   
+}
+/* banner-img */
+.banner-imge{
+    width: 584px;
 }
