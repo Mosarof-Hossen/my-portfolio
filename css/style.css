@@ -55,7 +55,7 @@
 /* navigation-menu */
 /* background */
 .header-section{
-    background-image: url(../image/developer.png), url(../image/header_bg.png);
+    background-image: url('../image/developer.png'), url('../image/header_bg.png');
     background-repeat: no-repeat;
     background-position: center left, bottom right;
 }
