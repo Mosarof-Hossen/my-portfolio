@@ -55,7 +55,7 @@
 /* navigation-menu */
 /* background */
 .header-section{
-    background-image: url(/image/developer.png),url(/image/header_bg.png);
+    background-image: url(image/developer.png),url(image/header_bg.png);
     background-repeat: no-repeat;
     background-position: center left, bottom right;
 }
@@ -214,5 +214,53 @@
     text-align: center;
     width: 909px;
     margin: auto;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    border-radius: 20px;
+    margin-top: 60px;
+    
+}
+.card-item{
+  padding: 40px;
+  box-shadow: 0px 0px 10px black ;
+  border-radius: 5px;
+}
+.card-item,img,h2,p{
+    margin-top: 20px;
+} 
+/* what-section-end */
+
+/* resume-section-start */
+.resume{
+    margin: 100px 0;
+}
+.resume-title{
+    text-align: center;
+    color: #181818;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    
+    font-weight: bold;
+
+}
+.resume-items{
+    display: flex;
+    gap: 40px;
+    margin-top: 100px;
+}
+.resume-title1{
+    margin: 30px 0;
+
+}
+.resume84,h1,h3{
+    margin-top: 15px;
+}
+/* resume-buuton */
+.resume-btton{
+    text-align: center;
 }
 
