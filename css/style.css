@@ -262,5 +262,36 @@
 /* resume-buuton */
 .resume-btton{
     text-align: center;
+    margin-bottom: 100px;
+}
+/* footer */
+.f-descreption{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.image{
+    display: flex;
+    gap: 20px;
+}
+.footer-1{
+
+}
+.footer-item{
+    display: flex;
+    gap: 30px;
+    padding: 100px 0;
+    justify-content: space-between;
+}
+
+.feld{
+    
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    color: #757575;
+    margin: 15px 0;
 }
 
