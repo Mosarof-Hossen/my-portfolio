@@ -1,0 +1,90 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: ;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* needd css */
+.all-container{
+    width: 90%;
+    margin: auto;
+}
+.bg{
+    background-color: #FFF8F3;
+}
+/* text-color */
+.t1{
+    color: #181818;
+}
+
+.t2{
+    color: #474747;
+}
+.t3{
+    color: #757575;
+}
+.t4{
+    color: #A3A3A3;
+}
+
+
+
+
+/* navigation-menu */
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    
+    
+}
+/* logo */
+.logo{
+    text-transform: capitalize;
+    font-size: 45px;
+     font-family: "Open Sans", sans-serif;
+
+}
+.text-color{
+    color: #fd6e0a;
+}
+
+/* logo-end */
+/* menu-item */
+.menu-item{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.menu-item li{
+    list-style: none;
+    
+
+}
+.menu-item li a{
+    text-decoration: none;
+    color: #474747;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+/* menu-item-end */
+/* button- */
+.btn-link{
+    background-color: #fd6e0a;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 15px 35px;
+    color: #FFFFFF;
+    border: 0px solid #fd6e0a;
+    border-radius: 5px;
+}
